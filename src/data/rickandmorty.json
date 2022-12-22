@@ -1,0 +1,54 @@
+{
+  "characters": [
+    {
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    },
+    {
+      "name": "Morty Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    },
+    {
+      "name": "Summer Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+    },
+    {
+      "name": "Beth Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+    },
+    {
+      "name": "Jerry Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+    },
+    {
+      "name": "Abadango Cluster Princess",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+    },
+    {
+      "name": "Abradolf Lincler",
+      "status": "unknown",
+      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+    },
+    {
+      "name": "Adjudicator Rick",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+    },
+    {
+      "name": "Agency Director",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+    },
+    {
+      "name": "Alan Rails",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+    }
+  ]
+}
