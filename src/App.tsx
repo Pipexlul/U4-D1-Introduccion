@@ -7,6 +7,7 @@ import { translateStatus } from "./Helpers";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import CardWrapper from "./components/CardWrapper";
+import Footer from "./components/Footer";
 
 import charJson from "./data/rickandmorty.json";
 
@@ -14,7 +15,7 @@ function App() {
   const characters = charJson.characters;
 
   return (
-    <div>
+    <>
       <Header title="Galería de Imágenes con React" />
       <CardWrapper>
         {characters.map((character, index) => {
@@ -28,7 +29,8 @@ function App() {
           );
         })}
       </CardWrapper>
-    </div>
+      <Footer />
+    </>
   );
 }
 

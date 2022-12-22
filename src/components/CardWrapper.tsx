@@ -7,7 +7,7 @@ interface Props {
 }
 
 const CardWrapper: React.FC<Props> = ({ children }) => {
-  return <div className="card-wrapper">{children}</div>;
+  return <main className="card-wrapper">{children}</main>;
 };
 
 export default CardWrapper;
