@@ -1,4 +1,5 @@
 import React, { useEffect, useState, CSSProperties } from "react";
+import Button from "react-bootstrap/Button";
 
 import "../styles/Footer.css";
 
@@ -32,6 +33,9 @@ const Footer: React.FC = () => {
           de personajes del show Rick y Morty.
         </p>
       </div>
+      <Button href="https://rickandmortyapi.com/" variant="warning">
+        Visita la página oficial de la API!
+      </Button>
     </footer>
   );
 };

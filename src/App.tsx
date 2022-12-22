@@ -1,5 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 
 import { translateStatus } from "./Helpers";
