@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import "../styles/Footer.css";
 
 const Footer: React.FC = () => {
-  const [footerPosition, setFooterPosition] = useState<string>("static");
+  const [footerPosition, setFooterPosition] = useState<string>("absolute");
 
   useEffect(() => {
     window.addEventListener("resize", handleShrinkGrow);
